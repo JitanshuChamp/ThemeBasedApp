@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme_red" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/red_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/red_colorPrimaryDark</item>
+        <item name="colorAccent">@color/red_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_pink" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/pink_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/pink_colorPrimaryDark</item>
+        <item name="colorAccent">@color/pink_colorAccent</item>
+    </style>
+
+    <style name="AppTheme_darpink" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/darkpink_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkpink_colorPrimary</item>
+        <item name="colorAccent">@color/darkpink_colorAccent</item>
+    </style>
+
+
+    <color name="red_colorPrimary">#ff0000</color>
+    <color name="red_colorPrimaryDark">#DF0000</color>
+    <color name="red_colorAccent">#0277ae</color>
+
+    <color name="pink_colorPrimary">#e91e63</color>
+    <color name="pink_colorPrimaryDark">#CB1755</color>
+    <color name="pink_colorAccent">#2095f2</color>
+
+    <color name="darkpink_colorPrimary">#9b26af</color>
+    <color name="darkpink_colorPrimaryDark">#7a1ea1</color>
+    <color name="darkpink_colorAccent">#f34235</color>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

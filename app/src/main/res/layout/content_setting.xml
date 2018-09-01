@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".SettingActivity"
+    tools:showIn="@layout/activity_setting">
+
+    <Button
+        android:id="@+id/btn_mumbai"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="24dp"
+        android:text="Mumbai" />
+
+    <Button
+        android:id="@+id/btn_nashik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_mumbai"
+        android:layout_toLeftOf="@+id/btn_goa"
+        android:layout_centerInParent="true"
+        android:text="Nashik" />
+
+    <Button
+        android:id="@+id/btn_goa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="34dp"
+        android:text="GOA" />
+</RelativeLayout>
